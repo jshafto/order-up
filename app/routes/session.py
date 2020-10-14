@@ -16,6 +16,7 @@ def login():
     if form.validate_on_submit():
         empl_number = form.employee_number.data
         employee = Employee.query.filter(Employee.employee_number == empl_number).first()
+        print(employee)
         if not employee or not employee.check_password(form.password.data):
             return redirect(url_for(".login"))
         login_user(employee)
