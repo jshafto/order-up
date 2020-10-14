@@ -2,7 +2,7 @@ from flask import Flask
 from flask_login import LoginManager
 from .config import Configuration
 from .routes import orders, session
-from .models import db, Employee, Menu, MenuItem, MenuItemType
+from .models import db, Employee, Menu, MenuItem, MenuItemType, Table
 
 
 app = Flask(__name__)
