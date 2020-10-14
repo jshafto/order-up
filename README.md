@@ -7,7 +7,7 @@ _Order Up_ is a data-driven web application to help restaurants with the day-to-
 ## Project Checklist
 - [x] Environment Setup
 - [x] Login/logout workflow
-- [ ] Represent menus, menu items, and menu item types
+- [x] Represent menus, menu items, and menu item types
 - [ ] Represent tables
 - [ ] Represent an order
 - [ ] Appropriate views for the workflow
